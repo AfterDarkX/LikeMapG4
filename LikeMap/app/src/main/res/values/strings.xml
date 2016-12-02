@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Like Map</string>
+    <string-array name="listRoom">
+        <item>301/1</item>
+        <item>301/2</item>
+    </string-array>
+    <string name="radio">อาคารบรรยายรวม (บร. 2)</string>
+</resources>

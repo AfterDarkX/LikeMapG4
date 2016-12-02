@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.asus.likemap">
+
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <receiver android:name=".AlarmReceiver"/>//ชินเพิ่มส่วนนี้
+        <activity android:name=".ShowEvent"/>//ชินเพิ่มส่วนนี้
+        <activity android:name=".choose" />
+        <activity android:name=".chooseRoom" />
+        <activity android:name=".showInfo" />
+        <activity android:name=".clock"></activity>
+    </application>
+    <uses-permission android:name="android.permission.WAKE_LOCK" />//ชินเพิ่มส่วนนี้
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />//ชินเพิ่มส่วนนี้
+</manifest>
